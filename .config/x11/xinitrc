@@ -1,0 +1,22 @@
+#!/bin/sh
+#
+# Use to start everything needed for custom DWM
+# environment.
+
+userresources=$HOME/.config/x11/xresources
+
+if [ -f "$userresources" ]; then
+    xrdb "$userresources"
+fi
+
+xwallpaper --zoom ~/.local/share/backgrounds/background
+
+xset r rate 300 50
+
+autostart="xcompmgr dunst dropbox mpd slstatus"
+for program in $autostart; do
+	pidof -s "$program" || "$program" &
+done
+
+ssh-agent dwm
+

@@ -1,0 +1,91 @@
+! -----------------------------------------------------------------------------
+! Cursor
+! -----------------------------------------------------------------------------
+Xcursor.theme: Adwaita
+Xcursor.size: 16
+
+! -----------------------------------------------------------------------------
+! URXVT
+! -----------------------------------------------------------------------------
+URxvt.font: xft:Monospace:size=14
+URxvt.letterSpace: -1
+URxvt.internalBorder: 5
+URxvt.scrollBar: False
+URxvt.cursorBlink: True
+! Transparency
+URxvt*depth: 32
+! Where [num] is the opacity 
+URxvt.background: [75]#000000
+
+! -----------------------------------------------------------------------------
+! Colour Scheme (Fedora 36 GNOME terminal scheme)
+! -----------------------------------------------------------------------------
+! special
+*foreground: gray90
+*background: #1E1E1E
+*.cursorColor: #FFFFFF
+
+! Black
+*color0:  #1E1E1E
+*color8:  #5E5C64
+! Red
+*color1:  #C01C28
+*color9:  #F66151
+! Green
+*color2:  #26A269
+*color10: #33D17A
+! Yellow
+*color3:  #A2734C
+*color11: #E9AD0C
+! Blue
+*color4:  #12488D
+*color12: #2A7BDE
+! Magenta
+*color5:  #A347BA
+*color13: #C061CB
+! Cyan
+*color6:  #2AA1B3
+*color14: #33C7DE
+! White
+*color7:  #D0CFCC
+*color15: #FFFFFF
+! -----------------------------------------------------------------------------
+! Colour Scheme (Mental Outlaw scheme)
+! -----------------------------------------------------------------------------
+!	! special
+!	*.foreground:   #c5c8c6
+!	*.background:   #1d1f21
+!	*.cursorColor:  #c5c8c6
+!	
+!	! black
+!	*.color0:       #1d1f21
+!	*.color8:       #969896
+!	
+!	! red
+!	*.color1:       #cc342b
+!	*.color9:       #cc342b
+!	
+!	! green
+!	*.color2:       #198844
+!	*.color10:      #198844
+!	
+!	! yellow
+!	*.color3:       #fba922
+!	*.color11:      #fba922
+!	
+!	! blue
+!	*.color4:       #3971ed
+!	*.color12:      #3971ed
+!	
+!	! magenta
+!	*.color5:       #a36ac7
+!	*.color13:      #a36ac7
+!	
+!	! cyan
+!	*.color6:       #3971ed
+!	*.color14:      #3971ed
+!	
+!	! white
+!	*.color7:       #c5c8c6
+!	*.color15:      #ffffff
+
