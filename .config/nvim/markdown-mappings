@@ -51,6 +51,8 @@ nnoremap <leader>TS o\| Command                    \| Description               
 " Table - Command Prompt/Powershell
 nnoremap <leader>TP o\| Command                    \| Description                                     \|<CR>\|----------------------------\|-------------------------------------------------\|<CR>\| `$ ` \| \|<esc>2b
 
+" Table - Add new row
+nnoremap <leader>TR o\| `` \| \|<esc>bi
 
 " Code Block - Shell Command
 nnoremap <leader>B i```shell<CR><CR>$ <CR>```<esc>k
