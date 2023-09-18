@@ -14,6 +14,9 @@ nnoremap <leader>W :set nowrap <enter>
 nnoremap <leader>s :set spell <enter>
 nnoremap <leader>S :set nospell <enter>
 
+" Source markdown keybindings
+source $HOME/.config/nvim/markdown-mappings
+
 " Vim Settings
 
 set number
