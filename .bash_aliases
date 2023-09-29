@@ -15,6 +15,11 @@ alias c='clear'
 alias mv='mv -i'
 alias rm='rm -i'
 
+# Package management
+alias a='sudo apt'
+alias d='sudo dnf'
+alias p='sudo pacman'
+
 # Get weather report with wttr.in
 alias weather='curl wttr.in'
 
