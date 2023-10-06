@@ -41,7 +41,7 @@ nnoremap <leader>C o`$ `<esc>i
 " Single Line - Super User
 nnoremap <leader>S o`# `<esc>i
 " Single Line - Command Prompt/PowerShell
-nnoremap <leader>CP o`# `<esc>i
+nnoremap <leader>CP o`> `<esc>i
 
 
 " Table - Shell Command
