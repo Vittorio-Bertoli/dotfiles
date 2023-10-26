@@ -1,3 +1,8 @@
+" vim-plug
+call plug#begin()
+Plug 'morhetz/gruvbox'
+call plug#end()
+
 " Key Mappings
 let mapleader = " "
 
@@ -26,4 +31,7 @@ set nowrap
 
 set tabstop=8
 set shiftwidth=8
+
+" Colour Schme
+colorscheme gruvbox
 
