@@ -15,7 +15,7 @@ fi
 
 # Environment variables
 export EDITOR='nvim'          
-export TERMINAL='st'
+export TERMINAL='gnome-terminal'
 export BROWSER='firefox'
 
 # XDG paths
