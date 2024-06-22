@@ -20,9 +20,6 @@ alias a='sudo apt'
 alias d='sudo dnf'
 alias p='sudo pacman'
 
-# Calcurse
-alias diary='calcurse -D ~/Documents/calcurse'
-
 # Get weather report with wttr.in
 alias weather='curl wttr.in'
 
