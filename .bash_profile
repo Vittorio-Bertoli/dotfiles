@@ -13,6 +13,9 @@ if [ -d "$HOME/.local/bin" ]; then
 	PATH="$HOME/.local/bin:$PATH"
 fi
 
+# PATH for manual neovim
+PATH="$HOME/neovim/bin:$PATH"
+
 # Environment variables
 export EDITOR='nvim'          
 export TERMINAL='gnome-terminal'
