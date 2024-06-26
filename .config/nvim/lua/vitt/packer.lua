@@ -34,7 +34,9 @@ return require('packer').startup(function(use)
     }
   }
 
-  use 'sbdchd/neoformat'
+  -- Code formatting
+  -- Install via $ npm i -g prettier
+  use 'prettier/vim-prettier'
 
   -- Colourscheme
   use { "ellisonleao/gruvbox.nvim" }
