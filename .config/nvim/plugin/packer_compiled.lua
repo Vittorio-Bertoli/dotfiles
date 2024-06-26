@@ -94,6 +94,11 @@ _G.packer_plugins = {
     path = "/home/vitt/.local/share/nvim/site/pack/packer/start/lsp-zero.nvim",
     url = "https://github.com/VonHeikemen/lsp-zero.nvim"
   },
+  neoformat = {
+    loaded = true,
+    path = "/home/vitt/.local/share/nvim/site/pack/packer/start/neoformat",
+    url = "https://github.com/sbdchd/neoformat"
+  },
   ["nvim-cmp"] = {
     loaded = true,
     path = "/home/vitt/.local/share/nvim/site/pack/packer/start/nvim-cmp",

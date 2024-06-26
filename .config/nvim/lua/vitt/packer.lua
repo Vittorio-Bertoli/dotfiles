@@ -34,6 +34,8 @@ return require('packer').startup(function(use)
     }
   }
 
+  use 'sbdchd/neoformat'
+
   -- Colourscheme
   use { "ellisonleao/gruvbox.nvim" }
   vim.o.background = "dark" -- or "light" for light mode
